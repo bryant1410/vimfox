@@ -4,7 +4,7 @@ vimfox ALPHA
 Live web development plugin for vim.
 
 
-###what is vimfox?
+### what is vimfox?
 
 Vimfox brings live css, javascript and html editing to vim. This means you
 can edit a file in vim and directly see the result without having to refresh 
@@ -19,7 +19,7 @@ I was curious about how the plugin worked and after reading up on websockets I
 decided to write my own plugin.
 
 
-###installation
+### installation
 
 1. Install vimfox using pathogen / vundle or clone the repo directly into
 your $HOME/.vim directory.
@@ -33,14 +33,14 @@ your $HOME/.vim directory.
    work in virtualenvs.*
 
 
-###how to use
+### how to use
 
 Add this script to the (html) page you want to work on
 ```html
 <script type='text/javascript' src="http://localhost:9000/vimfox/vimfox.js"></script>
 ```
 
-####commands
+#### commands
 
 ```vim
 " Start the vimfox server and make vimfox commands available to the buffer.
@@ -61,7 +61,7 @@ Add this script to the (html) page you want to work on
 "                    file to css / js.
 ```
 
-####autocommands
+#### autocommands
 
 Vimfox does not include any autocommands. This keeps the vimfox code clean
 and the user in control.
@@ -89,7 +89,7 @@ let g:vimfox_autocmmands['less'] = [
     \]
 ```
 
-####options
+#### options
 
 ```vim
 " host address vimfox server
@@ -110,12 +110,12 @@ g:vimfox_hide_status = 0
 ```
 
 
-###disclaimer
+### disclaimer
 
 This plugin has not been thorougly tested (as in has not been tested yet).
 
 
-###contact
+### contact
 
 Comments and critique always welcome @ dydrmntion _AT_ gmail
 
